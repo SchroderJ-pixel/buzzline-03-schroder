@@ -1,0 +1,13 @@
+[
+  {"ts":"2025-09-05T12:05:00Z","meal":"Oats + whey","protein_g":36,"carb_g":55,"fat_g":8,"kcal":470,"training_day":true},
+  {"ts":"2025-09-05T15:00:00Z","meal":"Greek yogurt","protein_g":23,"carb_g":15,"fat_g":2,"kcal":190,"training_day":true},
+  {"ts":"2025-09-05T18:30:00Z","meal":"Salmon bowl","protein_g":42,"carb_g":60,"fat_g":12,"kcal":620,"training_day":true},
+  {"ts":"2025-09-05T21:30:00Z","meal":"Protein shake","protein_g":30,"carb_g":8,"fat_g":2,"kcal":180,"training_day":true},
+  {"ts":"2025-09-05T23:05:00Z","meal":"Late-night nachos","protein_g":18,"carb_g":95,"fat_g":28,"kcal":780,"training_day":true},
+  {"ts":"2025-09-05T23:30:00Z","meal":"Chicken wrap","protein_g":32,"carb_g":35,"fat_g":14,"kcal":460,"training_day":true},
+  {"ts":"2025-09-06T02:20:00Z","meal":"Pizza slices","protein_g":22,"carb_g":80,"fat_g":24,"kcal":700,"training_day":true},
+  {"ts":"2025-09-06T12:00:00Z","meal":"Overnight oats","protein_g":28,"carb_g":50,"fat_g":9,"kcal":430,"training_day":false},
+  {"ts":"2025-09-06T16:00:00Z","meal":"Apple","protein_g":0,"carb_g":25,"fat_g":0,"kcal":95,"training_day":true},
+  {"ts":"2025-09-06T16:45:00Z","meal":"Mini protein bar","protein_g":10,"carb_g":15,"fat_g":4,"kcal":160,"training_day":true},
+  {"ts":"2025-09-06T19:10:00Z","meal":"Chicken rice bowl","protein_g":40,"carb_g":55,"fat_g":10,"kcal":550,"training_day":true}
+]
