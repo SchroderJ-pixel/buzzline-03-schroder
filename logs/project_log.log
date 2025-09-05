@@ -217,3 +217,212 @@ thor': 'Eve'}
 2025-09-05 18:16:46 | INFO | END producer.
 2025-09-05 18:16:49 | WARNING | Consumer interrupted by user.
 2025-09-05 18:16:50 | INFO | Kafka consumer for topic 'smoker_csv' closed.
+2025-09-05 18:45:05 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:45:05 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:45:05 | INFO | START consumer.
+2025-09-05 18:45:05 | INFO | Kafka topic: buzzline_json
+2025-09-05 18:45:05 | INFO | Kafka consumer group id: buzz_group
+2025-09-05 18:45:05 | INFO | Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-09-05 18:45:05 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:45:05 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-09-05 18:45:06 | INFO | Kafka consumer created successfully.
+2025-09-05 18:45:06 | INFO | Polling messages from topic 'buzzline_json'...
+2025-09-05 18:49:18 | WARNING | Consumer interrupted by user.
+2025-09-05 18:49:18 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-05 18:49:18 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-05 18:49:19 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:49:19 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:49:19 | INFO | START nutrition consumer (schroder).
+2025-09-05 18:49:19 | INFO | Kafka topic: nutrition_json
+2025-09-05 18:49:19 | INFO | Kafka consumer group id: nutrition_group
+2025-09-05 18:49:19 | INFO | Consumer: Topic 'nutrition_json' and group 'nutrition_group'...
+2025-09-05 18:49:19 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:49:19 | INFO | Creating Kafka consumer. Topic='nutrition_json' and group ID='nutrition_group'.
+2025-09-05 18:49:20 | INFO | Kafka consumer created successfully.
+2025-09-05 18:49:20 | INFO | Polling messages from topic 'nutrition_json'...
+2025-09-05 18:49:43 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:49:43 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:49:43 | INFO | Project root: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder
+2025-09-05 18:49:43 | INFO | Data folder: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data
+2025-09-05 18:49:43 | INFO | Data file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:49:43 | INFO | START nutrition producer (schroder).
+2025-09-05 18:49:43 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:49:43 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HegFEN9JRCi4V5qcsYuThQ', 'controller_id': 1}
+2025-09-05 18:49:43 | INFO | Kafka topic: nutrition_json
+2025-09-05 18:49:43 | INFO | Message interval: 1 seconds
+2025-09-05 18:49:43 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:49:43 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-05 18:49:43 | INFO | Kafka producer successfully created.
+2025-09-05 18:49:43 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:49:44 | INFO | Topic 'nutrition_json' already exists. Recreating fresh...
+2025-09-05 18:49:44 | INFO | Requested deletion of topic 'nutrition_json'.
+2025-09-05 18:49:44 | ERROR | Error managing topic 'nutrition_json': [Error 36] TopicAlreadyExistsError: Request 'CreateTopicsRequest_v3(create_topic_requests=[(topic='nutrition_json', num_partitions=1, replication_factor=1, replica_assignment=[], configs=[])], timeout=30000, validate_only=False)' failed with response 'CreateTopicsResponse_v3(throttle_time_ms=0, topic_errors=[(topic='nutrition_json', error_code=36, error_message="Topic 'nutrition_json' already exists.")])'.
+2025-09-05 18:53:15 | WARNING | Consumer interrupted by user.
+2025-09-05 18:53:15 | INFO | Kafka consumer for topic 'nutrition_json' closed.
+2025-09-05 18:53:15 | INFO | END consumer for topic 'nutrition_json' and group 'nutrition_group'.
+2025-09-05 18:54:58 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:54:58 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:54:58 | INFO | START nutrition consumer (schroder).
+2025-09-05 18:54:58 | INFO | Kafka topic: nutrition_json_v2
+2025-09-05 18:54:58 | INFO | Kafka consumer group id: nutrition_group
+2025-09-05 18:54:58 | INFO | Consumer: Topic 'nutrition_json_v2' and group 'nutrition_group'...
+2025-09-05 18:54:58 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:54:58 | INFO | Creating Kafka consumer. Topic='nutrition_json_v2' and group ID='nutrition_group'.
+2025-09-05 18:54:58 | INFO | Kafka consumer created successfully.
+2025-09-05 18:54:58 | INFO | Polling messages from topic 'nutrition_json_v2'...
+2025-09-05 18:54:58 | ERROR | Error while consuming messages: Invalid file descriptor: -1
+2025-09-05 18:54:58 | INFO | Kafka consumer for topic 'nutrition_json_v2' closed.
+2025-09-05 18:54:58 | INFO | END consumer for topic 'nutrition_json_v2' and group 'nutrition_group'.
+2025-09-05 18:56:03 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:56:03 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:56:03 | INFO | Project root: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder
+2025-09-05 18:56:03 | INFO | Data folder: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data
+2025-09-05 18:56:03 | INFO | Data file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:03 | INFO | START nutrition producer (schroder).
+2025-09-05 18:56:03 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:56:03 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HegFEN9JRCi4V5qcsYuThQ', 'controller_id': 1}
+2025-09-05 18:56:03 | INFO | Kafka topic: nutrition_json_v2
+2025-09-05 18:56:03 | INFO | Message interval: 1 seconds
+2025-09-05 18:56:03 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:56:03 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-05 18:56:03 | INFO | Kafka producer successfully created.
+2025-09-05 18:56:03 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:56:04 | INFO | Topic 'nutrition_json_v2' already exists. Recreating fresh...
+2025-09-05 18:56:04 | INFO | Requested deletion of topic 'nutrition_json_v2'.
+2025-09-05 18:56:04 | INFO | Topic 'nutrition_json_v2' created successfully.
+2025-09-05 18:56:04 | INFO | Kafka topic 'nutrition_json_v2' is ready.
+2025-09-05 18:56:04 | INFO | Starting message production to topic 'nutrition_json_v2'...
+2025-09-05 18:56:04 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:04 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:04 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T12:05:00Z', 'meal': 'Oats + whey', 'protein_g': 36, 'carb_g': 55, 'fat_g': 8, 'kcal': 470, 'training_day': True}
+2025-09-05 18:56:05 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T15:00:00Z', 'meal': 'Greek yogurt', 'protein_g': 23, 'carb_g': 15, 'fat_g': 2, 'kcal': 190, 'training_day': True}
+2025-09-05 18:56:06 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T18:30:00Z', 'meal': 'Salmon bowl', 'protein_g': 42, 'carb_g': 60, 'fat_g': 12, 'kcal': 620, 'training_day': True}
+2025-09-05 18:56:07 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T21:30:00Z', 'meal': 'Protein shake', 'protein_g': 30, 'carb_g': 8, 'fat_g': 2, 'kcal': 180, 'training_day': True}
+2025-09-05 18:56:08 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:05:00Z', 'meal': 'Late-night nachos', 'protein_g': 18, 'carb_g': 95, 'fat_g': 28, 'kcal': 780, 'training_day': True}
+2025-09-05 18:56:09 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:30:00Z', 'meal': 'Chicken wrap', 'protein_g': 32, 'carb_g': 35, 'fat_g': 14, 'kcal': 460, 'training_day': True}
+2025-09-05 18:56:10 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T02:20:00Z', 'meal': 'Pizza slices', 'protein_g': 22, 'carb_g': 80, 'fat_g': 24, 'kcal': 700, 'training_day': True}
+2025-09-05 18:56:11 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T12:00:00Z', 'meal': 'Overnight oats', 'protein_g': 28, 'carb_g': 50, 'fat_g': 9, 'kcal': 430, 'training_day': False}
+2025-09-05 18:56:12 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:00:00Z', 'meal': 'Apple', 'protein_g': 0, 'carb_g': 25, 'fat_g': 0, 'kcal': 95, 'training_day': True}
+2025-09-05 18:56:13 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:45:00Z', 'meal': 'Mini protein bar', 'protein_g': 10, 'carb_g': 15, 'fat_g': 4, 'kcal': 160, 'training_day': True}
+2025-09-05 18:56:14 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T19:10:00Z', 'meal': 'Chicken rice bowl', 'protein_g': 40, 'carb_g': 55, 'fat_g': 10, 'kcal': 550, 'training_day': True}
+2025-09-05 18:56:15 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:15 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:15 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T12:05:00Z', 'meal': 'Oats + whey', 'protein_g': 36, 'carb_g': 55, 'fat_g': 8, 'kcal': 470, 'training_day': True}
+2025-09-05 18:56:16 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T15:00:00Z', 'meal': 'Greek yogurt', 'protein_g': 23, 'carb_g': 15, 'fat_g': 2, 'kcal': 190, 'training_day': True}
+2025-09-05 18:56:17 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T18:30:00Z', 'meal': 'Salmon bowl', 'protein_g': 42, 'carb_g': 60, 'fat_g': 12, 'kcal': 620, 'training_day': True}
+2025-09-05 18:56:18 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T21:30:00Z', 'meal': 'Protein shake', 'protein_g': 30, 'carb_g': 8, 'fat_g': 2, 'kcal': 180, 'training_day': True}
+2025-09-05 18:56:19 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:05:00Z', 'meal': 'Late-night nachos', 'protein_g': 18, 'carb_g': 95, 'fat_g': 28, 'kcal': 780, 'training_day': True}
+2025-09-05 18:56:20 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:30:00Z', 'meal': 'Chicken wrap', 'protein_g': 32, 'carb_g': 35, 'fat_g': 14, 'kcal': 460, 'training_day': True}
+2025-09-05 18:56:21 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T02:20:00Z', 'meal': 'Pizza slices', 'protein_g': 22, 'carb_g': 80, 'fat_g': 24, 'kcal': 700, 'training_day': True}
+2025-09-05 18:56:22 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T12:00:00Z', 'meal': 'Overnight oats', 'protein_g': 28, 'carb_g': 50, 'fat_g': 9, 'kcal': 430, 'training_day': False}
+2025-09-05 18:56:23 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:00:00Z', 'meal': 'Apple', 'protein_g': 0, 'carb_g': 25, 'fat_g': 0, 'kcal': 95, 'training_day': True}
+2025-09-05 18:56:24 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:45:00Z', 'meal': 'Mini protein bar', 'protein_g': 10, 'carb_g': 15, 'fat_g': 4, 'kcal': 160, 'training_day': True}
+2025-09-05 18:56:25 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T19:10:00Z', 'meal': 'Chicken rice bowl', 'protein_g': 40, 'carb_g': 55, 'fat_g': 10, 'kcal': 550, 'training_day': True}
+2025-09-05 18:56:26 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:26 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:26 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T12:05:00Z', 'meal': 'Oats + whey', 'protein_g': 36, 'carb_g': 55, 'fat_g': 8, 'kcal': 470, 'training_day': True}
+2025-09-05 18:56:27 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T15:00:00Z', 'meal': 'Greek yogurt', 'protein_g': 23, 'carb_g': 15, 'fat_g': 2, 'kcal': 190, 'training_day': True}
+2025-09-05 18:56:28 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T18:30:00Z', 'meal': 'Salmon bowl', 'protein_g': 42, 'carb_g': 60, 'fat_g': 12, 'kcal': 620, 'training_day': True}
+2025-09-05 18:56:29 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T21:30:00Z', 'meal': 'Protein shake', 'protein_g': 30, 'carb_g': 8, 'fat_g': 2, 'kcal': 180, 'training_day': True}
+2025-09-05 18:56:30 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:05:00Z', 'meal': 'Late-night nachos', 'protein_g': 18, 'carb_g': 95, 'fat_g': 28, 'kcal': 780, 'training_day': True}
+2025-09-05 18:56:31 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:30:00Z', 'meal': 'Chicken wrap', 'protein_g': 32, 'carb_g': 35, 'fat_g': 14, 'kcal': 460, 'training_day': True}
+2025-09-05 18:56:32 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T02:20:00Z', 'meal': 'Pizza slices', 'protein_g': 22, 'carb_g': 80, 'fat_g': 24, 'kcal': 700, 'training_day': True}
+2025-09-05 18:56:33 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T12:00:00Z', 'meal': 'Overnight oats', 'protein_g': 28, 'carb_g': 50, 'fat_g': 9, 'kcal': 430, 'training_day': False}
+2025-09-05 18:56:34 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:00:00Z', 'meal': 'Apple', 'protein_g': 0, 'carb_g': 25, 'fat_g': 0, 'kcal': 95, 'training_day': True}
+2025-09-05 18:56:35 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:45:00Z', 'meal': 'Mini protein bar', 'protein_g': 10, 'carb_g': 15, 'fat_g': 4, 'kcal': 160, 'training_day': True}
+2025-09-05 18:56:36 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T19:10:00Z', 'meal': 'Chicken rice bowl', 'protein_g': 40, 'carb_g': 55, 'fat_g': 10, 'kcal': 550, 'training_day': True}
+2025-09-05 18:56:37 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:37 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:56:37 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T12:05:00Z', 'meal': 'Oats + whey', 'protein_g': 36, 'carb_g': 55, 'fat_g': 8, 'kcal': 470, 'training_day': True}
+2025-09-05 18:56:38 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T15:00:00Z', 'meal': 'Greek yogurt', 'protein_g': 23, 'carb_g': 15, 'fat_g': 2, 'kcal': 190, 'training_day': True}
+2025-09-05 18:56:39 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T18:30:00Z', 'meal': 'Salmon bowl', 'protein_g': 42, 'carb_g': 60, 'fat_g': 12, 'kcal': 620, 'training_day': True}
+2025-09-05 18:56:40 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T21:30:00Z', 'meal': 'Protein shake', 'protein_g': 30, 'carb_g': 8, 'fat_g': 2, 'kcal': 180, 'training_day': True}
+2025-09-05 18:56:41 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:05:00Z', 'meal': 'Late-night nachos', 'protein_g': 18, 'carb_g': 95, 'fat_g': 28, 'kcal': 780, 'training_day': True}
+2025-09-05 18:56:42 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:30:00Z', 'meal': 'Chicken wrap', 'protein_g': 32, 'carb_g': 35, 'fat_g': 14, 'kcal': 460, 'training_day': True}
+2025-09-05 18:56:43 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T02:20:00Z', 'meal': 'Pizza slices', 'protein_g': 22, 'carb_g': 80, 'fat_g': 24, 'kcal': 700, 'training_day': True}
+2025-09-05 18:56:43 | WARNING | Producer interrupted by user.
+2025-09-05 18:56:43 | INFO | Kafka producer closed.
+2025-09-05 18:56:43 | INFO | END nutrition producer (schroder).
+2025-09-05 18:57:10 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:57:10 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:57:10 | INFO | Project root: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder
+2025-09-05 18:57:10 | INFO | Data folder: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data
+2025-09-05 18:57:10 | INFO | Data file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:57:10 | INFO | START nutrition producer (schroder).
+2025-09-05 18:57:10 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:57:10 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HegFEN9JRCi4V5qcsYuThQ', 'controller_id': 1}
+2025-09-05 18:57:10 | INFO | Kafka topic: nutrition_json_v2
+2025-09-05 18:57:10 | INFO | Message interval: 1 seconds
+2025-09-05 18:57:10 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:57:10 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-05 18:57:11 | INFO | Kafka producer successfully created.
+2025-09-05 18:57:11 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:57:11 | INFO | Topic 'nutrition_json_v2' already exists. Recreating fresh...
+2025-09-05 18:57:11 | INFO | Requested deletion of topic 'nutrition_json_v2'.
+2025-09-05 18:57:11 | INFO | Topic 'nutrition_json_v2' created successfully.
+2025-09-05 18:57:11 | INFO | Kafka topic 'nutrition_json_v2' is ready.
+2025-09-05 18:57:11 | INFO | Starting message production to topic 'nutrition_json_v2'...
+2025-09-05 18:57:11 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:57:11 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:57:11 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T12:05:00Z', 'meal': 'Oats + whey', 'protein_g': 36, 'carb_g': 55, 'fat_g': 8, 'kcal': 470, 'training_day': True}
+2025-09-05 18:57:12 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T15:00:00Z', 'meal': 'Greek yogurt', 'protein_g': 23, 'carb_g': 15, 'fat_g': 2, 'kcal': 190, 'training_day': True}
+2025-09-05 18:57:13 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T18:30:00Z', 'meal': 'Salmon bowl', 'protein_g': 42, 'carb_g': 60, 'fat_g': 12, 'kcal': 620, 'training_day': True}
+2025-09-05 18:57:13 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:57:13 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:57:13 | INFO | START nutrition consumer (schroder).
+2025-09-05 18:57:13 | INFO | Kafka topic: nutrition_json_v2
+2025-09-05 18:57:13 | INFO | Kafka consumer group id: nutrition_group
+2025-09-05 18:57:13 | INFO | Consumer: Topic 'nutrition_json_v2' and group 'nutrition_group'...
+2025-09-05 18:57:13 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:57:13 | INFO | Creating Kafka consumer. Topic='nutrition_json_v2' and group ID='nutrition_group'.
+2025-09-05 18:57:13 | INFO | Kafka consumer created successfully.
+2025-09-05 18:57:13 | INFO | Polling messages from topic 'nutrition_json_v2'...
+2025-09-05 18:57:14 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T21:30:00Z', 'meal': 'Protein shake', 'protein_g': 30, 'carb_g': 8, 'fat_g': 2, 'kcal': 180, 'training_day': True}
+2025-09-05 18:57:15 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:05:00Z', 'meal': 'Late-night nachos', 'protein_g': 18, 'carb_g': 95, 'fat_g': 28, 'kcal': 780, 'training_day': True}
+2025-09-05 18:57:16 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T23:30:00Z', 'meal': 'Chicken wrap', 'protein_g': 32, 'carb_g': 35, 'fat_g': 14, 'kcal': 460, 'training_day': True}
+2025-09-05 18:57:17 | INFO | [2025-09-05 11:00:00] meal='Greek yogurt' p=23.0g c=15.0g f=2.0g kcal=190.0 training_day=True
+2025-09-05 18:57:17 | INFO | Daily so far (2025-09-05): P=23g C=15g F=2g Kcal=190
+2025-09-05 18:57:17 | INFO | [2025-09-05 14:30:00] meal='Salmon bowl' p=42.0g c=60.0g f=12.0g kcal=620.0 training_day=True
+2025-09-05 18:57:17 | INFO | Daily so far (2025-09-05): P=65g C=75g F=14g Kcal=810
+2025-09-05 18:57:17 | INFO | [2025-09-05 17:30:00] meal='Protein shake' p=30.0g c=8.0g f=2.0g kcal=180.0 training_day=True
+2025-09-05 18:57:17 | INFO | Daily so far (2025-09-05): P=95g C=83g F=16g Kcal=990
+2025-09-05 18:57:17 | INFO | [2025-09-05 19:05:00] meal='Late-night nachos' p=18.0g c=95.0g f=28.0g kcal=780.0 training_day=True
+2025-09-05 18:57:17 | INFO | Daily so far (2025-09-05): P=113g C=178g F=44g Kcal=1770
+2025-09-05 18:57:17 | WARNING | CARB_SPIKE: 'Late-night nachos' has 95.0g carbs (>= 90).
+2025-09-05 18:57:17 | INFO | [2025-09-05 19:30:00] meal='Chicken wrap' p=32.0g c=35.0g f=14.0g kcal=460.0 training_day=True
+2025-09-05 18:57:17 | INFO | Daily so far (2025-09-05): P=145g C=213g F=58g Kcal=2230
+2025-09-05 18:57:17 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T02:20:00Z', 'meal': 'Pizza slices', 'protein_g': 22, 'carb_g': 80, 'fat_g': 24, 'kcal': 700, 'training_day': True}
+2025-09-05 18:57:17 | INFO | [2025-09-05 22:20:00] meal='Pizza slices' p=22.0g c=80.0g f=24.0g kcal=700.0 training_day=True
+2025-09-05 18:57:17 | INFO | Daily so far (2025-09-05): P=167g C=293g F=82g Kcal=2930
+2025-09-05 18:57:17 | WARNING | LATE_EATING: 700 kcal after 22:00 local (meal='Pizza slices').
+2025-09-05 18:57:17 | WARNING | PROTEIN_GOAL: Reached 167g by 20:00 local. Nice!
+2025-09-05 18:57:18 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T12:00:00Z', 'meal': 'Overnight oats', 'protein_g': 28, 'carb_g': 50, 'fat_g': 9, 'kcal': 430, 'training_day': False}
+2025-09-05 18:57:18 | INFO | [2025-09-06 08:00:00] meal='Overnight oats' p=28.0g c=50.0g f=9.0g kcal=430.0 training_day=False
+2025-09-05 18:57:18 | INFO | Daily so far (2025-09-06): P=28g C=50g F=9g Kcal=430
+2025-09-05 18:57:19 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:00:00Z', 'meal': 'Apple', 'protein_g': 0, 'carb_g': 25, 'fat_g': 0, 'kcal': 95, 'training_day': True}
+2025-09-05 18:57:19 | INFO | [2025-09-06 12:00:00] meal='Apple' p=0.0g c=25.0g f=0.0g kcal=95.0 training_day=True
+2025-09-05 18:57:19 | INFO | Daily so far (2025-09-06): P=28g C=75g F=9g Kcal=525
+2025-09-05 18:57:20 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T16:45:00Z', 'meal': 'Mini protein bar', 'protein_g': 10, 'carb_g': 15, 'fat_g': 4, 'kcal': 160, 'training_day': True}
+2025-09-05 18:57:20 | INFO | [2025-09-06 12:45:00] meal='Mini protein bar' p=10.0g c=15.0g f=4.0g kcal=160.0 training_day=True
+2025-09-05 18:57:20 | INFO | Daily so far (2025-09-06): P=38g C=90g F=13g Kcal=685
+2025-09-05 18:57:20 | WARNING | UNDERFUEL_AFTER_WORKOUT: last two meals total 255 kcal (< 500).
+2025-09-05 18:57:21 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-06T19:10:00Z', 'meal': 'Chicken rice bowl', 'protein_g': 40, 'carb_g': 55, 'fat_g': 10, 'kcal': 550, 'training_day': True}
+2025-09-05 18:57:21 | INFO | [2025-09-06 15:10:00] meal='Chicken rice bowl' p=40.0g c=55.0g f=10.0g kcal=550.0 training_day=True
+2025-09-05 18:57:21 | INFO | Daily so far (2025-09-06): P=78g C=145g F=23g Kcal=1235
+2025-09-05 18:57:22 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:57:22 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/food.json
+2025-09-05 18:57:22 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T12:05:00Z', 'meal': 'Oats + whey', 'protein_g': 36, 'carb_g': 55, 'fat_g': 8, 'kcal': 470, 'training_day': True}
+2025-09-05 18:57:22 | INFO | [2025-09-05 08:05:00] meal='Oats + whey' p=36.0g c=55.0g f=8.0g kcal=470.0 training_day=True
+2025-09-05 18:57:22 | INFO | Daily so far (2025-09-05): P=203g C=348g F=90g Kcal=3400
+2025-09-05 18:57:23 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T15:00:00Z', 'meal': 'Greek yogurt', 'protein_g': 23, 'carb_g': 15, 'fat_g': 2, 'kcal': 190, 'training_day': True}
+2025-09-05 18:57:23 | INFO | [2025-09-05 11:00:00] meal='Greek yogurt' p=23.0g c=15.0g f=2.0g kcal=190.0 training_day=True
+2025-09-05 18:57:23 | INFO | Daily so far (2025-09-05): P=226g C=363g F=92g Kcal=3590
+2025-09-05 18:57:24 | INFO | Sent message to topic 'nutrition_json_v2': {'ts': '2025-09-05T18:30:00Z', 'meal': 'Salmon bowl', 'protein_g': 42, 'carb_g': 60, 'fat_g': 12, 'kcal': 620, 'training_day': True}
+2025-09-05 18:57:24 | INFO | [2025-09-05 14:30:00] meal='Salmon bowl' p=42.0g c=60.0g f=12.0g kcal=620.0 training_day=True
+2025-09-05 18:57:24 | INFO | Daily so far (2025-09-05): P=268g C=423g F=104g Kcal=4210
+2025-09-05 18:57:25 | WARNING | Producer interrupted by user.
+2025-09-05 18:57:25 | INFO | Kafka producer closed.
+2025-09-05 18:57:25 | INFO | END nutrition producer (schroder).
+2025-09-05 18:57:29 | WARNING | Consumer interrupted by user.
+2025-09-05 18:57:29 | INFO | Kafka consumer for topic 'nutrition_json_v2' closed.
+2025-09-05 18:57:29 | INFO | END consumer for topic 'nutrition_json_v2' and group 'nutrition_group'.
