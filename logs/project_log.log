@@ -117,3 +117,103 @@ thor': 'Eve'}
 2025-09-05 17:52:39 | WARNING | Producer interrupted by user.
 2025-09-05 17:52:39 | INFO | Kafka producer closed.
 2025-09-05 17:52:39 | INFO | END producer.
+2025-09-05 18:12:59 | WARNING | Consumer interrupted by user.
+2025-09-05 18:12:59 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-05 18:12:59 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-05 18:13:01 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:13:01 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:13:01 | INFO | START consumer.
+2025-09-05 18:13:01 | INFO | Kafka topic: smoker_csv
+2025-09-05 18:13:01 | INFO | Kafka consumer group id: smoker_group
+2025-09-05 18:13:01 | INFO | Rolling window size: 10
+2025-09-05 18:13:01 | INFO | Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-05 18:13:01 | INFO | Rolling window size: 10
+2025-09-05 18:13:01 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:13:01 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-05 18:13:01 | INFO | Kafka consumer created successfully.
+2025-09-05 18:13:01 | INFO | Polling messages from topic 'smoker_csv'...
+2025-09-05 18:13:17 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:13:17 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:13:17 | INFO | Project root: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder
+2025-09-05 18:13:17 | INFO | Data folder: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data
+2025-09-05 18:13:17 | INFO | Data file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/smoker_temps.csv
+2025-09-05 18:13:17 | INFO | START producer.
+2025-09-05 18:13:17 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:13:18 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HegFEN9JRCi4V5qcsYuThQ', 'controller_id': 1}
+2025-09-05 18:13:18 | INFO | Kafka topic: smoker_csv
+2025-09-05 18:13:18 | INFO | Message interval: 5 seconds
+2025-09-05 18:13:18 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:13:18 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-05 18:13:18 | INFO | Kafka producer successfully created.
+2025-09-05 18:13:18 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:13:18 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-05 18:13:18 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-05 18:13:18 | ERROR | Error managing topic 'smoker_csv': [Error 36] TopicAlreadyExistsError: Request 'CreateTopicsRequest_v3(create_topic_requests=[(topic='smoker_csv', num_partitions=1, replication_factor=1, replica_assignment=[], configs=[])], timeout=30000, validate_only=False)' failed with response 'CreateTopicsResponse_v3(throttle_time_ms=0, topic_errors=[(topic='smoker_csv', error_code=36, error_message="Topic 'smoker_csv' already exists.")])'.
+2025-09-05 18:14:58 | WARNING | Consumer interrupted by user.
+2025-09-05 18:14:58 | INFO | Kafka consumer for topic 'smoker_csv' closed.
+2025-09-05 18:15:12 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:15:12 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:15:12 | INFO | START consumer.
+2025-09-05 18:15:12 | INFO | Kafka topic: smoker_csv
+2025-09-05 18:15:12 | INFO | Kafka consumer group id: smoker_group
+2025-09-05 18:15:12 | INFO | Rolling window size: 10
+2025-09-05 18:15:12 | INFO | Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-05 18:15:12 | INFO | Rolling window size: 10
+2025-09-05 18:15:12 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:15:12 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-05 18:15:12 | INFO | Kafka consumer created successfully.
+2025-09-05 18:15:12 | INFO | Polling messages from topic 'smoker_csv'...
+2025-09-05 18:15:57 | INFO | Logging to file: logs/project_log.log
+2025-09-05 18:15:57 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 18:15:57 | INFO | Project root: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder
+2025-09-05 18:15:57 | INFO | Data folder: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data
+2025-09-05 18:15:57 | INFO | Data file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/smoker_temps.csv
+2025-09-05 18:15:57 | INFO | START producer.
+2025-09-05 18:15:57 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:15:57 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HegFEN9JRCi4V5qcsYuThQ', 'controller_id': 1}
+2025-09-05 18:15:57 | INFO | Kafka topic: smoker_csv
+2025-09-05 18:15:57 | INFO | Message interval: 5 seconds
+2025-09-05 18:15:57 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:15:57 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-05 18:15:57 | INFO | Kafka producer successfully created.
+2025-09-05 18:15:57 | INFO | Kafka broker address: localhost:9092
+2025-09-05 18:15:58 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-05 18:15:58 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-05 18:15:58 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-05 18:15:58 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-05 18:15:58 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-05 18:15:58 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/smoker_temps.csv
+2025-09-05 18:15:58 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/smoker_temps.csv
+2025-09-05 18:15:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:15:58.397082', 'temperature': 70.4}
+2025-09-05 18:16:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:03.400309', 'temperature': 70.8}
+2025-09-05 18:16:03 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:03.400309', 'temperature': 70.8}
+2025-09-05 18:16:03 | INFO | Rolling window size: 10
+2025-09-05 18:16:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:08.401801', 'temperature': 71.2}
+2025-09-05 18:16:08 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:08.401801', 'temperature': 71.2}
+2025-09-05 18:16:08 | INFO | Rolling window size: 10
+2025-09-05 18:16:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:13.403445', 'temperature': 71.6}
+2025-09-05 18:16:13 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:13.403445', 'temperature': 71.6}
+2025-09-05 18:16:13 | INFO | Rolling window size: 10
+2025-09-05 18:16:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:18.404892', 'temperature': 72.0}
+2025-09-05 18:16:18 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:18.404892', 'temperature': 72.0}
+2025-09-05 18:16:18 | INFO | Rolling window size: 10
+2025-09-05 18:16:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:23.406321', 'temperature': 72.4}
+2025-09-05 18:16:23 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:23.406321', 'temperature': 72.4}
+2025-09-05 18:16:23 | INFO | Rolling window size: 10
+2025-09-05 18:16:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:28.407672', 'temperature': 72.8}
+2025-09-05 18:16:28 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:28.407672', 'temperature': 72.8}
+2025-09-05 18:16:28 | INFO | Rolling window size: 10
+2025-09-05 18:16:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:33.409931', 'temperature': 73.2}
+2025-09-05 18:16:33 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:33.409931', 'temperature': 73.2}
+2025-09-05 18:16:33 | INFO | Rolling window size: 10
+2025-09-05 18:16:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:38.411929', 'temperature': 73.6}
+2025-09-05 18:16:38 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:38.411929', 'temperature': 73.6}
+2025-09-05 18:16:38 | INFO | Rolling window size: 10
+2025-09-05 18:16:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-05T23:16:43.413782', 'temperature': 74.0}
+2025-09-05 18:16:43 | INFO | Processed JSON message: {'timestamp': '2025-09-05T23:16:43.413782', 'temperature': 74.0}
+2025-09-05 18:16:43 | INFO | Rolling window size: 10
+2025-09-05 18:16:46 | WARNING | Producer interrupted by user.
+2025-09-05 18:16:46 | INFO | Kafka producer closed.
+2025-09-05 18:16:46 | INFO | END producer.
+2025-09-05 18:16:49 | WARNING | Consumer interrupted by user.
+2025-09-05 18:16:50 | INFO | Kafka consumer for topic 'smoker_csv' closed.
