@@ -1,40 +1,50 @@
-# buzzline-03-case
+# buzzline-03-schroder  
 
-Streaming data does not have to be simple text.
-Many of us are familiar with streaming video content and audio (e.g. music) files.
-
-Streaming data can be structured (e.g. csv files) or
-semi-structured (e.g. json data).
-
-We'll work with two different types of data, and so we'll use two different Kafka topic names.
-See [.env](.env).
-
-## First, Use Tools from Module 1 and 2
-
-Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> and <https://github.com/denisecase/buzzline-02-case> first.
-**Python 3.11 is required.**
-
-## Second, Copy This Example Project & Rename
-
-1. Once the tools are installed, copy/fork this project into your GitHub account
-   and create your own version of this project to run and experiment with.
-2. Name it `buzzline-03-yourname` where yourname is something unique to you.
-
-Additional information about our standard professional Python project workflow is available at
-<https://github.com/denisecase/pro-analytics-01>.
-
-Use your README.md to record your workflow and commands.
+**Course:** Streaming Data – Module 3  
+**Date:** September 5, 2025  
+**Author:** Justin Schroder  
+**GitHub:** [SchroderJ-pixel](https://github.com/SchroderJ-pixel) 
 
 ---
 
-## Task 0. If Windows, Start WSL
+## Overview
 
-- Be sure you have completed the installation of WSL as shown in [https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/03c-windows-install-python-git-vscode.md](https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/03c-windows-install-python-git-vscode.md).
+For this project I built two small, real-time pipelines on Kafka:
 
-- We can keep working in **Windows VS Code** for editing, Git, and GitHub.
-- When you need to run Kafka or Python commands, just open a **WSL terminal** from VS Code.
+- **Nutrition (JSON):** I stream meals/macros from `data/food.json` → Kafka → a consumer does lightweight live checks (protein goal, late eating, carb spikes, under-fueling).
+- **Class Attendance (CSV→JSON):** I stream `data/attendance.csv` → Kafka → a consumer flags rolling/daily attendance drops, late bursts, and chronic absences.
 
-Launch WSL. Open a PowerShell terminal in VS Code. Run the following command:
+I **edit files in VS Code**, run **Kafka in WSL (Ubuntu)**, and run **Python in a PowerShell terminal** with a virtual environment. Each pipeline has its own Kafka topic (see `.env`).
+
+---
+
+## Where to run what (cheat sheet)
+
+- **VS Code editor**: open/edit files (`.env`, `*.py`, data files).
+- **VS Code PowerShell terminal (Windows)**: Python/venv, *run producers & consumers*, Git commands.
+- **VS Code WSL (Ubuntu) terminal**: *Kafka server* and Kafka admin commands (`kafka-topics.sh`, etc).
+
+> When in doubt:
+> - Kafka things → **WSL**  
+> - Python things → **PowerShell**  
+> - File edits → **VS Code editor**
+
+---
+
+## Prereqs (Modules 1 & 2)
+
+Complete:  
+- <https://github.com/denisecase/buzzline-01-case>  
+- <https://github.com/denisecase/buzzline-02-case>  
+**Python 3.11 is required.**
+
+I forked/renamed the template to `buzzline-03-schroder` and work locally.
+
+---
+
+## Task 0 — If Windows, launch WSL (from PowerShell)
+
+**Where:** VS Code **PowerShell terminal**
 
 ```powershell
 wsl
@@ -118,14 +128,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.json_producer_case
+py -m producers.json_producer_schroder
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m producers.json_producer_case
+python3 -m producers.json_producer_schroder
 ```
 
 What did we name the topic used with JSON data?
@@ -142,14 +152,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.json_consumer_case
+py -m consumers.json_consumer_schroder
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+python3 -m consumers.json_consumer_schroder
 ```
 
 What did we name the topic used with JSON data?
@@ -175,7 +185,7 @@ Hint: Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.csv_producer_case
+py -m producers.csv_producer_schroder
 ```
 
 ## Task 6. Start a Kafka CSV Consumer
@@ -196,7 +206,7 @@ Hint: Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.csv_consumer_case
+py -m consumers.csv_consumer_schroder
 ```
 
 ---
@@ -205,31 +215,12 @@ py -m consumers.csv_consumer_case
 
 To kill the terminal, hit CTRL c (hold both CTRL key and c key down at the same time).
 
-## About the Smart Smoker (CSV Example)
+# What the files do
 
-A food stall occurs when the internal temperature of food plateaus or
-stops rising during slow cooking, typically between 150°F and 170°F.
-This happens due to evaporative cooling as moisture escapes from the
-surface of the food. The plateau can last for hours, requiring
-adjustments like wrapping the food or raising the cooking temperature to
-overcome it. Cooking should continue until the food reaches the
-appropriate internal temperature for safe and proper doneness.
+My **Nutrition (JSON)** pipeline streams meal events from `food.json` into Kafka and a consumer tallies daily macros in real time. It also fires quick alerts for big carb spikes, under-fueling after workouts, late high-calorie meals, and hitting the daily protein goal.
 
-The producer simulates a smart food thermometer, sending a temperature
-reading every 15 seconds. The consumer monitors these messages and
-maintains a time window of the last 5 readings.
-If the temperature varies by less than 2 degrees, the consumer alerts
-the BBQ master that a stall has been detected. This time window helps
-capture recent trends while filtering out minor fluctuations.
+My **Attendance (CSV→JSON)** pipeline streams rows from `attendance.csv` into Kafka and the consumer watches per-course attendance. It flags rolling/daily drops, bursts of “late” arrivals, and students with repeated absences — with simple thresholds I can tweak in `.env`.
 
-## Later Work Sessions
-
-When resuming work on this project:
-
-1. Open the project repository folder in VS Code. 
-2. Start the Kafka service (use WSL if Windows) and keep the terminal running. 
-3. Activate your local project virtual environment (.venv) in your OS-specific terminal.
-4. Run `git pull` to get any changes made from the remote repo (on GitHub).
 
 ## After Making Useful Changes
 
