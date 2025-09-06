@@ -426,3 +426,14 @@ thor': 'Eve'}
 2025-09-05 18:57:29 | WARNING | Consumer interrupted by user.
 2025-09-05 18:57:29 | INFO | Kafka consumer for topic 'nutrition_json_v2' closed.
 2025-09-05 18:57:29 | INFO | END consumer for topic 'nutrition_json_v2' and group 'nutrition_group'.
+2025-09-05 19:10:11 | INFO | Logging to file: logs/project_log.log
+2025-09-05 19:10:11 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 19:10:11 | INFO | Project root: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder
+2025-09-05 19:10:11 | INFO | Data folder: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data
+2025-09-05 19:10:11 | INFO | Data file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/attendance.csv
+2025-09-05 19:10:11 | INFO | START attendance producer (schroder).
+2025-09-05 19:10:11 | INFO | Kafka broker address: localhost:9092
+2025-09-05 19:10:11 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HegFEN9JRCi4V5qcsYuThQ', 'controller_id': 1}
+2025-09-05 19:10:11 | INFO | Kafka topic: attendance_csv
+2025-09-05 19:10:11 | INFO | Message interval: 2 seconds
+2025-09-05 19:10:11 | ERROR | Data file not found: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/attendance.csv. Exiting.
