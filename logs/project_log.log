@@ -437,3 +437,24 @@ thor': 'Eve'}
 2025-09-05 19:10:11 | INFO | Kafka topic: attendance_csv
 2025-09-05 19:10:11 | INFO | Message interval: 2 seconds
 2025-09-05 19:10:11 | ERROR | Data file not found: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/attendance.csv. Exiting.
+2025-09-05 19:16:36 | INFO | Logging to file: logs/project_log.log
+2025-09-05 19:16:36 | INFO | Log sanitization enabled, personal info removed
+2025-09-05 19:16:36 | INFO | Project root: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder
+2025-09-05 19:16:36 | INFO | Data folder: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data
+2025-09-05 19:16:36 | INFO | Data file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/attendance.csv
+2025-09-05 19:16:36 | INFO | START attendance producer (schroder).
+2025-09-05 19:16:36 | INFO | Kafka broker address: localhost:9092
+2025-09-05 19:16:36 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HegFEN9JRCi4V5qcsYuThQ', 'controller_id': 1}
+2025-09-05 19:16:36 | INFO | Kafka topic: attendance_csv
+2025-09-05 19:16:36 | INFO | Message interval: 2 seconds
+2025-09-05 19:16:36 | INFO | Kafka broker address: localhost:9092
+2025-09-05 19:16:36 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-05 19:16:36 | INFO | Kafka producer successfully created.
+2025-09-05 19:16:36 | INFO | Kafka broker address: localhost:9092
+2025-09-05 19:16:37 | INFO | Topic 'attendance_csv' created successfully.
+2025-09-05 19:16:37 | INFO | Kafka topic 'attendance_csv' is ready.
+2025-09-05 19:16:37 | INFO | Starting message production to topic 'attendance_csv'...
+2025-09-05 19:16:37 | INFO | Opening data file in read mode: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/attendance.csv
+2025-09-05 19:16:37 | INFO | Reading data from file: ~/OneDrive/Desktop/Masters/Streaming Data/Mod 3/buzzline-03-schroder/data/attendance.csv
+2025-09-05 19:16:37 | ERROR | CSV header missing columns: {'course', 'status', 'student'}. Found: {'temperature', 'timestamp'}
+2025-09-05 19:16:37 | INFO | Kafka producer closed.
